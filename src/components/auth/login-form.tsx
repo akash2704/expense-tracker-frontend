@@ -66,7 +66,7 @@ export function LoginForm({ onSuccess, onToggleMode }: LoginFormProps) {
             {loading ? 'Logging in...' : 'Login'}
           </Button>
           <Button type="button" variant="link" onClick={onToggleMode} className="w-full">
-            Don't have an account? Register
+            Don&apos;t have an account? Register
           </Button>
         </form>
       </CardContent>

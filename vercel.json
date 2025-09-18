@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "env": {
+    "NEXT_PUBLIC_API_URL": "http://ec2-13-127-0-61.ap-south-1.compute.amazonaws.com:8000"
+  }
+}
